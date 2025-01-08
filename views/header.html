@@ -1,0 +1,16 @@
+{{ define "header" }}
+<header class="flex flex-col items-center">
+  <h1 class="font-bold text-xl text-center">{{ .Name }}</h1>
+  {{ $lastLinkIndex := dec (len .LinkList )}}
+  <div class="flex text-sm">
+    <a href="mailto:{{ .Email }}">{{ .Email }}</a>&nbsp;|&nbsp;
+    <p>{{ .Location }}</p>
+    &nbsp;|&nbsp;
+    <p>{{ .PhoneNumber }}</p>
+    &nbsp;|&nbsp;{{ range $i, $link := .LinkList }}
+    <a href="{{ .URL }}" target="_blank" class="text-blue-700 underline"
+      >{{ .Title }}</a
+    >{{if ne $i $lastLinkIndex}}&nbsp;|&nbsp;{{ end }}{{ end }}
+  </div>
+</header>
+{{ end }}

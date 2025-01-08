@@ -1,0 +1,23 @@
+{{ define "skills" }}
+<div>
+  {{ block "section-title" "Skills" }}{{ end }} {{ $lastTechnicalIndex := dec
+  (len .TechnicalList) }} {{ $lastProfessionalIndex := dec (len
+  .ProfessionalList) }}
+  <div class="text-xxs">
+    <div class="flex">
+      <p>
+        <span class="font-bold">Technical: </span>
+        {{range $i, $skill := .TechnicalList}}{{$skill}}{{if ne $i
+        $lastTechnicalIndex }}, {{end}}{{end}}
+      </p>
+    </div>
+    <div class="flex">
+      <p>
+        <span class="font-bold">Professional: </span>{{ range $i, $skill :=
+        .ProfessionalList }}{{ $skill }}{{if ne $i $lastProfessionalIndex }},
+        {{end}}{{ end }}
+      </p>
+    </div>
+  </div>
+</div>
+{{ end }}

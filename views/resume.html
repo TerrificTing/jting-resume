@@ -1,0 +1,13 @@
+{{ define "resume" }}
+<div class="max-w-[900px] px-2 py-2">
+  {{ block "header" .Header }}{{ end }}
+  <hr class="h-0.5 mx-auto bg-black border-0" />
+  {{ block "experience" .ExperienceList }}{{ end }}
+  <hr class="h-0.5 mx-auto bg-black border-0" />
+  {{ block "projects" .ProjectList }}{{ end }}
+  <hr class="h-0.5 mx-auto bg-black border-0" />
+  {{ block "education" .EducationList }}{{ end }}
+  <hr class="h-0.5 mx-auto bg-black border-0" />
+  {{ block "skills" .Skills}}{{ end }}
+</div>
+{{ end }}

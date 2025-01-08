@@ -1,0 +1,24 @@
+{{ define "experience" }}
+<div>
+  {{ block "section-title" "Professional Experience" }}{{ end }}
+  <div>
+    {{ range $i, $exp := . }}
+    <div class="font-bold">
+      <div class="flex justify-between w-full text-sm">
+        <p>{{ $exp.Role }}</p>
+        <p>{{ $exp.Location }}</p>
+      </div>
+      <div class="flex justify-between w-full text-xs">
+        <p>{{ $exp.Company }}</p>
+        <p>{{ $exp.StartDate }} - {{ $exp.EndDate }}</p>
+      </div>
+      <ul class="list-disc pl-5 font-normal text-xxs">
+        {{ range $i, $pt := .KeyPointList }}
+        <li>{{ $pt }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

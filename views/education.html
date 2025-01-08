@@ -1,0 +1,31 @@
+{{ define "education" }}
+<div>
+  {{ block "section-title" "Education" }}{{ end }}
+  <div>
+    {{ range $i, $edu := . }}
+    <div class="font-bold">
+      <div class="flex justify-between w-full text-sm">
+        <p>{{$edu.School}}</p>
+        {{if ne $edu.GPA ""}}
+        <p>{{$edu.GPA}}</p>
+        {{ end }}
+      </div>
+      <div class="flex justify-between w-full text-xs">
+        <p id="degree-with-fields">
+          {{$edu.DegreeTitle}}, {{range $i, $major := .MajorList}} Major in
+          {{$major}}; {{end}} {{if gt (len .MinorList) 0}} {{range $i, $minor :=
+          .MinorList}} Minor in {{$minor}}; {{end}}{{end}}
+        </p>
+        <p>{{$edu.StartDate}} - {{$edu.EndDate}}</p>
+      </div>
+      <p class="text-xs font-normal">
+        {{ $lastCourseworkIndex := dec (len .RelevantCoursework) }}
+        <span class="font-medium">Relevant Coursework: </span>{{ range $i,
+        $course := .RelevantCoursework }}{{ $course }}{{if ne $i
+        $lastCourseworkIndex }}, {{end}}{{ end }}
+      </p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
