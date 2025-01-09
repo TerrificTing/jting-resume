@@ -23,7 +23,7 @@ var ProjectData = []Project{
 		URL:   "https://github.com/TerrificTing/DoNotFindTheFox",
 		KeyPointList: []string{
 			"Recreated a simple game where users choose tiles and avoid spelling the word \"fox\"",
-			"Enabled users to choose to use the mouse or keyboard as an input method, improving the user experience and ensuring accessibility",
+			"Enabled users to choose to use the mouse or keyboard as an input method, improving the user experience and the program's accessibility",
 			"Created multiple classes to ensure code efficiency, modularity, and maintainability.",
 		},
 	},

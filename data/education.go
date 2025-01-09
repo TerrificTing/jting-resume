@@ -21,9 +21,12 @@ var EducationData = []Education{
 		},
 		MinorList: []string{},
 		RelevantCoursework: []string{
-			"Discrete Mathematics", "Probability and Statistics", "Computer Systems Programming", "Computer Science Theory", "Data Structures and Algorithms", "Calculus B/C", "Physics 1/2",
+			"Discrete Mathematics", "Probability and Statistics",
+			"Computer Systems Programming", "Computer Science Theory",
+			"Software Engineering", "Data Structures and Algorithms",
+			"Algorithm Design and Analysis", "Calculus B/C", "Physics 1/2",
 		},
 		StartDate: "2023",
-		EndDate:   "2028",
+		EndDate:   "2027",
 	},
 }
