@@ -14,6 +14,7 @@ var SkillsData = Skills{
 		"x86 Assembly",
 		"HTML",
 		"CSS",
+		"Go",
 		"JavaScript/TypeScript",
 		"Data Structures",
 		"Algorithms",
