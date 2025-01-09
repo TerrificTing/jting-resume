@@ -9,45 +9,22 @@ type Project struct {
 
 var ProjectData = []Project{
 	{
-		Title: "AccessiScan",
-		Role:  "Lead Software Engineer",
-		URL:   "https://accessiscan.vercel.app",
+		Title: "2048 Game",
+		Role:  "Full-Stack Software Engineer",
+		URL:   "https://github.com/TerrificTing",
 		KeyPointList: []string{
-			"Led a technical team in the creation of a tool that enables developers to assess the accessibility of their web projects",
-			"Learned how to create, use, and publish a Chrome extension, enabling users to scan web projects without a live deployment",
-			"Designed and outlined the high-level system architecture and played a key role in its implementation",
-			"Built using NextJS + TypeScript, Go, MongoDB, Vercel, Python + Flask, and GitHub OAuth",
+			"Collaborated with a partner to recreate the game 2048 from scratch in Java as a comprehensive frontend and backend project",
+			"Utilized the Java keyboard API to allow users to intuitively access game controls from the keyboard, significantly improving the user experience",
 		},
 	},
 	{
-		Title: "Toni Tunes",
+		Title: "Do Not Find The Fox",
 		Role:  "Full-Stack Software Engineer",
-		URL:   "https://toni-tunes.vercel.app",
+		URL:   "https://github.com/TerrificTing/DoNotFindTheFox",
 		KeyPointList: []string{
-			"Currently building a service that measures the uniqueness of users’ Spotify listening history",
-			"Uses Spotify OAuth to securely sign users in and manage their data",
-			"Simplified scalability by designing stateless and serverless system architecture",
-			"Built using Spotify’s Web API and OAuth, NextJS + TypeScript and MongoDB +  AWS",
-		},
-	},
-	{
-		Title: "LEGO Mosaic Generator",
-		Role:  "Full-Stack Software Engineer",
-		URL:   "https://image-to-lego.vercel.app",
-		KeyPointList: []string{
-			"Developed a full-stack web application that converts an input image to a Lego mosaic and a spreadsheet containing a breakdown of the specific LEGO pieces required to build the mosaic in real life",
-			"Built using Flask, PIL (Pillow), NumPy, Pygame, and OpenPyXl",
-		},
-	},
-	{
-		Title: "Trivia App",
-		Role:  "Full-Stack Software Engineer",
-		URL:   "https://github.com/KingTingTheGreat/trivia-app",
-		KeyPointList: []string{
-			"Designed and built a trivia game to be hosted on a local network, meeting the needs of my family’s annual holiday games",
-			"Utilizes goroutines,websockets, and a centralized player store to easily support hundreds of concurrent users",
-			"Clearly and concisely documented the code and automated its start up, allowing it to be easily shared and used by others, including those with minimal technical experience or knowledge",
-			"Built using NextJS + TypeScript and Golang",
+			"Recreated a simple game where users choose tiles and avoid spelling the word \"fox\"",
+			"Enabled users to choose to use the mouse or keyboard as an input method, improving the user experience and ensuring accessibility",
+			"Created multiple classes to ensure code efficiency, modularity, and maintainability.",
 		},
 	},
 }

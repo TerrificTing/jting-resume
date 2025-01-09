@@ -13,20 +13,17 @@ type Education struct {
 
 var EducationData = []Education{
 	{
-		School:      "Boston University",
-		GPA:         "3.86",
-		DegreeTitle: "Bachelor's Degree",
+		School:      "Rochester Institute of Technology",
+		GPA:         "",
+		DegreeTitle: "Bachelor of Science",
 		MajorList: []string{
 			"Computer Science",
-			"Philosophy",
 		},
-		MinorList: []string{
-			"Women's Studies",
-		},
+		MinorList: []string{},
 		RelevantCoursework: []string{
-			"Distributed Systems", "Web Application Development", "Computer Networks", "Databases", "Software Engineering", "Information Security", "Algorithm Design and Analysis", "Concepts of Programming Languages", "Computer Systems Architecture", "Discrete Mathematics", "Computational Linear Algebra", "Probabilistic Computing",
+			"Discrete Mathematics", "Probability and Statistics", "Computer Systems Programming", "Computer Science Theory", "Data Structures and Algorithms", "Calculus B/C", "Physics 1/2",
 		},
-		StartDate: "2021",
-		EndDate:   "2025",
+		StartDate: "2023",
+		EndDate:   "2028",
 	},
 }

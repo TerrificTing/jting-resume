@@ -4,15 +4,15 @@
   <div>
     {{ range $i, $exp := . }}
     <div class="font-bold">
-      <div class="flex justify-between w-full text-sm">
+      <div class="flex justify-between w-full text-lg">
         <p>{{ $exp.Role }}</p>
-        <p>{{ $exp.Location }}</p>
-      </div>
-      <div class="flex justify-between w-full text-xs">
         <p>{{ $exp.Company }}</p>
+      </div>
+      <div class="flex justify-between w-full text-base">
+        <p>{{ $exp.Location }}</p>
         <p>{{ $exp.StartDate }} - {{ $exp.EndDate }}</p>
       </div>
-      <ul class="list-disc pl-5 font-normal text-xxs">
+      <ul class="list-disc pl-5 font-normal text-base">
         {{ range $i, $pt := .KeyPointList }}
         <li>{{ $pt }}</li>
         {{ end }}

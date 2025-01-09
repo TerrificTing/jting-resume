@@ -4,13 +4,13 @@
   <div>
     {{ range $i, $edu := . }}
     <div class="font-bold">
-      <div class="flex justify-between w-full text-sm">
+      <div class="flex justify-between w-full text-lg">
         <p>{{$edu.School}}</p>
         {{if ne $edu.GPA ""}}
         <p>{{$edu.GPA}}</p>
         {{ end }}
       </div>
-      <div class="flex justify-between w-full text-xs">
+      <div class="flex justify-between w-full text-base">
         <p id="degree-with-fields">
           {{$edu.DegreeTitle}}, {{range $i, $major := .MajorList}} Major in
           {{$major}}; {{end}} {{if gt (len .MinorList) 0}} {{range $i, $minor :=
@@ -18,7 +18,7 @@
         </p>
         <p>{{$edu.StartDate}} - {{$edu.EndDate}}</p>
       </div>
-      <p class="text-xs font-normal">
+      <p class="text-base font-normal">
         {{ $lastCourseworkIndex := dec (len .RelevantCoursework) }}
         <span class="font-medium">Relevant Coursework: </span>{{ range $i,
         $course := .RelevantCoursework }}{{ $course }}{{if ne $i

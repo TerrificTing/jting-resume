@@ -14,18 +14,18 @@ type Header struct {
 }
 
 var HeaderData = Header{
-	Name:        "Jeffrey Ting",
-	Email:       "jting@bu.edu",
-	Location:    "New York, NY",
-	PhoneNumber: "(917)757-5886",
+	Name:        "Jason Ting",
+	Email:       "jt8227@g.rit.edu",
+	Location:    "Rochester, NY",
+	PhoneNumber: "(516)-580-2303",
 	LinkList: []Link{
 		{
 			"LinkedIn",
-			"https://www.linkedin.com/in/jeffrey-ting-08b606253/",
+			"https://www.linkedin.com/in/jason-ting-829b66316/",
 		},
 		{
 			"GitHub",
-			"https://github.com/KingTingTheGreat",
+			"https://github.com/TerrificTing",
 		},
 	},
 }
