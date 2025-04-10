@@ -23,6 +23,7 @@ var SkillsData = Skills{
 		"Git/GitHub",
 		"Linux",
 		"Bash",
+		"SQL",
 	},
 	ProfessionalList: []string{
 		"Technical Writing",
