@@ -45,4 +45,16 @@ var ExperienceData = []Experience{
 			"Optimized the processing of products by organizing orders, significantly reducing errors and operating costs",
 		},
 	},
+	{
+		Role: 		"Technical Instructor",
+		Location: 	"Garden City, NY",
+		Company: 	"Lavner Education",
+		StartDate:	"June 2025",
+		EndDate: 	"August 2025",
+		KeyPointList: []string{
+			"Managed a student roster database, enhancing organization and streamlining administrative processes",
+			"Taught Python, Java, Lua, C++, and Scratch to students through project-based learning methods",
+			"Provided technical support for 150+ camp-issued laptops weekly, resolving both software and hardware issues",
+		},
+	},
 }
