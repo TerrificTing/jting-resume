@@ -33,6 +33,7 @@ var ExperienceData = []Experience{
 			"Organized and maintained orderly event lines in order to ensure attendees' safety",
 		},
 	},
+	/*
 	{
 		Role:      "Configuration Center Intern",
 		Location:  "Holbrook, NY",
@@ -45,6 +46,7 @@ var ExperienceData = []Experience{
 			"Optimized the processing of products by organizing orders, significantly reducing errors and operating costs",
 		},
 	},
+	*/
 	{
 		Role: 		"Technical Instructor",
 		Location: 	"Garden City, NY",

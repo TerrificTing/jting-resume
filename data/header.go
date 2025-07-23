@@ -15,7 +15,7 @@ type Header struct {
 
 var HeaderData = Header{
 	Name:        "Jason Ting",
-	Email:       "jt8227@g.rit.edu",
+	Email:       "jt8227@rit.edu",
 	Location:    "Rochester, NY",
 	PhoneNumber: "(516)-580-2303",
 	LinkList: []Link{
