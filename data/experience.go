@@ -11,6 +11,19 @@ type Experience struct {
 
 var ExperienceData = []Experience{
 	{
+		Role: 		"Technical Instructor",
+		Location: 	"Garden City, NY",
+		Company: 	"Lavner Education",
+		StartDate:	"June 2025",
+		EndDate: 	"August 2025",
+		KeyPointList: []string{
+			"Managed a student roster database, enhancing organization and streamlining administrative processes",
+			"Taught Python, Java, Lua, C++, and Scratch to students through project-based learning methods",
+			"Provided technical support for 150+ camp-issued laptops weekly, resolving both software and hardware issues",
+		},
+	},
+	
+	{
 		Role:      "Camp Counselor",
 		Location:  "Syosset, NY",
 		Company:   "Town of Oyster Bay",
@@ -22,6 +35,7 @@ var ExperienceData = []Experience{
 			"Collaborated with co-counselors to create a positive, enjoyable, and safe camp experience for all children",
 		},
 	},
+
 	{
 		Role:      "Student Volunteer",
 		Location:  "Rochester, NY",
@@ -33,6 +47,7 @@ var ExperienceData = []Experience{
 			"Organized and maintained orderly event lines in order to ensure attendees' safety",
 		},
 	},
+
 	/*
 	{
 		Role:      "Configuration Center Intern",
@@ -47,16 +62,4 @@ var ExperienceData = []Experience{
 		},
 	},
 	*/
-	{
-		Role: 		"Technical Instructor",
-		Location: 	"Garden City, NY",
-		Company: 	"Lavner Education",
-		StartDate:	"June 2025",
-		EndDate: 	"August 2025",
-		KeyPointList: []string{
-			"Managed a student roster database, enhancing organization and streamlining administrative processes",
-			"Taught Python, Java, Lua, C++, and Scratch to students through project-based learning methods",
-			"Provided technical support for 150+ camp-issued laptops weekly, resolving both software and hardware issues",
-		},
-	},
 }
