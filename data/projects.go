@@ -20,6 +20,18 @@ var ProjectData = []Project{
 	},
 	
 	{
+		Title:	"Music Database Project",
+		Role:	"Full-Stack Software Engineer",
+		URL: 	"https://github.com/hl9082/csci320-group20",
+		KeyPointList: []string{
+			"Collaborated with a team of 4 to make a website with fake data about music",
+			"Used different scripts to create fake data and add them to the database from .csv files",
+			"Built using HTML and Python",
+		},
+	},
+
+	/*
+	{
 		Title: "2048 Game",
 		Role:  "Full-Stack Software Engineer",
 		URL:   "https://github.com/TerrificTing/2048-game",
@@ -30,7 +42,6 @@ var ProjectData = []Project{
 		},
 	},
 
-	/*
 	{
 		Title: "Do Not Find The Fox",
 		Role:  "Full-Stack Software Engineer",

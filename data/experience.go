@@ -11,6 +11,17 @@ type Experience struct {
 
 var ExperienceData = []Experience{
 	{
+		Role: 		"Crew Member",
+		Location:	"Henrietta, NY",
+		Company: 	"CoreLife Eatery",
+		StartDate:	"September 2025",
+		EndDate:  	"Present",
+		KeyPointList: []string{
+			"Addressed customer issues and optimzed workflows to improve efficiency",
+			"Collaborated effectively in a fast-paced environment",
+		},
+	},
+	{
 		Role: 		"Technical Instructor",
 		Location: 	"Garden City, NY",
 		Company: 	"Lavner Education",
@@ -36,6 +47,7 @@ var ExperienceData = []Experience{
 		},
 	},
 
+	/*
 	{
 		Role:      "Student Volunteer",
 		Location:  "Rochester, NY",
@@ -48,7 +60,6 @@ var ExperienceData = []Experience{
 		},
 	},
 
-	/*
 	{
 		Role:      "Configuration Center Intern",
 		Location:  "Holbrook, NY",
