@@ -26,7 +26,8 @@ var ProjectData = []Project{
 		KeyPointList: []string{
 			"Collaborated with a team of 4 to make a website with fake data about music",
 			"Used different scripts to create fake data and add them to the database from .csv files",
-			"Built using HTML and Python",
+			"Performed data analysis to give the user recommended songs based on their likes and dislikes",
+			"Built using HTML, SQL, and Python",
 		},
 	},
 
