@@ -18,6 +18,7 @@ var ExperienceData = []Experience{
 		EndDate:  	"Present",
 		KeyPointList: []string{
 			"Addressed customer issues and optimzed workflows to improve efficiency",
+			"Managed customer serivce, food prepr, and inventory while maintaining organization",
 			"Collaborated effectively in a fast-paced environment",
 		},
 	},
