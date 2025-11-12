@@ -24,10 +24,10 @@ var ProjectData = []Project{
 		Role:	"Full-Stack Software Engineer",
 		URL: 	"https://github.com/hl9082/csci320-group20",
 		KeyPointList: []string{
-			"Collaborated with a team of 4 to make a website with fake data about music",
-			"Used different scripts to create fake data and add them to the database from .csv files",
-			"Performed data analysis to give the user recommended songs based on their likes and dislikes",
-			"Built using HTML, SQL, and Python",
+			"Collaborated with a team of 4 to design and develop a full-stack music recommendation website",
+			"Implemented the backend using Python and Flask to handle data processing and the recommendation system",
+			"Performed data analysis on user preference data to generate personalized song recommendations using similarity-based filtering techniques",
+			"Integrated the backend for a real-time display of personal recommendations",
 		},
 	},
 
