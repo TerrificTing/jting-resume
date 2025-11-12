@@ -27,7 +27,6 @@ var ProjectData = []Project{
 			"Collaborated with a team of 4 to design and develop a full-stack music recommendation website",
 			"Implemented the backend using Python and Flask to handle data processing and the recommendation system",
 			"Performed data analysis on user preference data to generate personalized song recommendations using similarity-based filtering techniques",
-			"Integrated the backend for a real-time display of personal recommendations",
 		},
 	},
 
