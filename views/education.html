@@ -13,7 +13,7 @@
       <div class="flex justify-between w-full text-base">
         <p id="degree-with-fields">
           {{$edu.DegreeTitle}}, {{range $i, $major := .MajorList}} Major in
-          {{$major}}; {{end}} {{if gt (len .MinorList) 0}} {{range $i, $minor :=
+          {{$major}} {{end}} {{if gt (len .MinorList) 0}} {{range $i, $minor :=
           .MinorList}} Minor in {{$minor}}; {{end}}{{end}}
         </p>
         <p>{{$edu.StartDate}} - {{$edu.EndDate}}</p>
