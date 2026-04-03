@@ -23,7 +23,7 @@ var EducationData = []Education{
 		RelevantCoursework: []string{
 			"Software Engineering", 
 			"Concepts of Computer Systems",
-			"Principles of Data Mangement",
+			"Principles of Data Management",
 			"Discrete Mathematics", 
 			"Probability and Statistics",
 			"Linear Algebra",

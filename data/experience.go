@@ -17,8 +17,8 @@ var ExperienceData = []Experience{
 		StartDate:	"September 2025",
 		EndDate:  	"Present",
 		KeyPointList: []string{
-			"Addressed customer issues and optimzed workflows to improve efficiency",
-			"Managed customer serivce, food prep, and inventory while maintaining organization",
+			"Addressed customer issues and optimized workflows to improve operational efficiency",
+			"Managed customer service, food prep, and inventory while maintaining a high level of organization",
 			"Collaborated effectively in a fast-paced environment",
 		},
 	},
@@ -42,7 +42,7 @@ var ExperienceData = []Experience{
 		StartDate: "July 2023",
 		EndDate:   "August 2024",
 		KeyPointList: []string{
-			"Supervised and guaranteed the safety of a group of 25 seven-year-old campers",
+			"Supervised and ensured the safety of a group of 25 seven-year-old campers",
 			"Organized, prepared, and led daily camp activities",
 			"Collaborated with co-counselors to create a positive, enjoyable, and safe camp experience for all children",
 		},

@@ -13,8 +13,8 @@ var ProjectData = []Project{
 		Role:	"Full-Stack Software Engineer",
 		URL:	"https://github.com/RIT-SWEN-261-05/team-project-team-1a",
 		KeyPointList: []string{
-			"Collaborated with a small group to make a website for a non-profit organization",
-			"Embedded multiple different types of accounts to give users a unique experience",
+			"Collaborated with a small group to develop a website for a nonprofit organization",
+			"Implemented multiple different types of accounts to give users different levels of access and functionality",
 			"Built using Angular, TypeScript, HTML/CSS, Spring, HTTP, and Java",
 		},
 	},
