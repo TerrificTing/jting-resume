@@ -17,7 +17,7 @@ var HeaderData = Header{
 	Name:        "Jason Ting",
 	Email:       "jt8227@rit.edu",
 	Location:    "Rochester, NY",
-	PhoneNumber: "(516)-580-2303",
+	PhoneNumber: "(516) 580-2303",
 	LinkList: []Link{
 		{
 			"LinkedIn",
