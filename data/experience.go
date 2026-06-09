@@ -17,7 +17,7 @@ var ExperienceData = []Experience{
 		StartDate:	"September 2025",
 		EndDate:  	"Present",
 		KeyPointList: []string{
-			"Addressed customer issues and optimized workflows to improve operational efficiency",
+			"Served 100+ customers per shift while resolving service issues and maintaining efficient operations during peak hours",
 			"Managed customer service, food prep, and inventory while maintaining a high level of organization",
 			"Collaborated effectively in a fast-paced environment",
 		},
@@ -30,7 +30,7 @@ var ExperienceData = []Experience{
 		EndDate: 	"August 2025",
 		KeyPointList: []string{
 			"Managed a student roster database, enhancing organization and streamlining administrative processes",
-			"Taught Python, Java, Lua, C++, and Scratch to students through project-based learning methods",
+			"Taught programming concepts in Python, Java, Lua, C++, and Scratch to classes of up to 30 students through project-based learning",
 			"Provided technical support for 150+ camp-issued laptops weekly, resolving both software and hardware issues",
 		},
 	},

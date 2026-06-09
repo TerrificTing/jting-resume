@@ -13,9 +13,9 @@ var ProjectData = []Project{
 		Role:	"Full-Stack Software Engineer",
 		URL:	"https://github.com/RIT-SWEN-261-05/team-project-team-1a",
 		KeyPointList: []string{
-			"Collaborated with a small group to develop a website for a nonprofit organization",
-			"Implemented multiple different types of accounts to give users different levels of access and functionality",
-			"Built using Angular, TypeScript, HTML/CSS, Spring, HTTP, and Java",
+			"Developed a full-stack web application for a nonprofit organization as part of a 4-person Agile software engineering team",
+			"Designed and implemented role-based authentication and authorization features supporting multiple user account types",
+			"Built frontend components in Angular/TypeScript and backend services in Java Spring, integrating REST APIs and relational database operations",
 		},
 	},
 	
@@ -24,9 +24,10 @@ var ProjectData = []Project{
 		Role:	"Full-Stack Software Engineer",
 		URL: 	"https://github.com/hl9082/csci320-group20",
 		KeyPointList: []string{
-			"Collaborated with a team of 4 to design and develop a full-stack music recommendation website",
-			"Implemented the backend using Python/Flask to handle data processing and the recommendation system",
-			"Performed data analysis on user preference data to generate personalized song recommendations using similarity-based filtering techniques",
+			"Developed a full-stack music recommendation platform using Flask, Python, SQL, HTML/CSS, and JavaScript",
+			"Implemented similarity-based recommendation algorithms to generate personalized song suggestions from user preference data",
+			"Designed backend APIs for user management, recommendation generation, and database interaction",
+			"Collaborated with a team of four using Git/GitHub for version control and feature integration",
 		},
 	},
 
