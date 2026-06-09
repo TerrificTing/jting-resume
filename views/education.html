@@ -18,12 +18,14 @@
         </p>
         <p>{{$edu.StartDate}} - {{$edu.EndDate}}</p>
       </div>
+      <!--
       <p class="text-base font-normal">
         {{ $lastCourseworkIndex := dec (len .RelevantCoursework) }}
         <span class="font-medium">Relevant Coursework: </span>{{ range $i,
         $course := .RelevantCoursework }}{{ $course }}{{if ne $i
         $lastCourseworkIndex }}, {{end}}{{ end }}
       </p>
+      -->
     </div>
     {{ end }}
   </div>

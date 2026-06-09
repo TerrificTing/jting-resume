@@ -15,7 +15,7 @@ var ProjectData = []Project{
 		KeyPointList: []string{
 			"Designed and implemented a multithreaded P2P communication system allowing concurrent messaging between multiple clients",
 			"Handled synchronization and concurrency to ensure thread-safe data transmission and prevent race conditions",
-			"Utilized TCP/IP sockets and custom protocols for reliable message delivery",
+			"Implemented end-to-end message encryption using AES and RSA key exchange to secure communications between peers",
 			"Collaborated in a 4-person team using Git for version control and integration",
 		},
 	},
