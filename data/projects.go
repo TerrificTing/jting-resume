@@ -17,8 +17,9 @@ var ProjectData = []Project{
 			"Handled synchronization and concurrency to ensure thread-safe data transmission and prevent race conditions",
 			"Utilized TCP/IP sockets and custom protocols for reliable message delivery",
 			"Collaborated in a 4-person team using Git for version control and integration",
-		}
-	}
+		},
+	},
+	
 	{
 		Title:	"U-Fund Project",
 		Role:	"Full-Stack Software Engineer",
