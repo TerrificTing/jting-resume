@@ -11,7 +11,7 @@ var ProjectData = []Project{
 	{
 		Title:	"Peer to Peer Secure Distributed Messenger",
 		Role:	"Full-Stack Software Engineer",
-		URL:	"https://github.com/jnDarby/CSCI-251-Group-Project"
+		URL:	"https://github.com/jnDarby/CSCI-251-Group-Project",
 		KeyPointList: []string{
 			"Designed and implemented a multithreaded P2P communication system allowing concurrent messaging between multiple clients",
 			"Handled synchronization and concurrency to ensure thread-safe data transmission and prevent race conditions",
@@ -19,7 +19,7 @@ var ProjectData = []Project{
 			"Collaborated in a 4-person team using Git for version control and integration",
 		},
 	},
-	
+
 	{
 		Title:	"U-Fund Project",
 		Role:	"Full-Stack Software Engineer",
