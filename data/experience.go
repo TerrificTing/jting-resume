@@ -35,6 +35,7 @@ var ExperienceData = []Experience{
 		},
 	},
 	
+	/*
 	{
 		Role:      "Camp Counselor",
 		Location:  "Syosset, NY",
@@ -47,7 +48,8 @@ var ExperienceData = []Experience{
 			"Collaborated with co-counselors to create a positive, enjoyable, and safe camp experience for all children",
 		},
 	},
-
+	*/
+	
 	/*
 	{
 		Role:      "Student Volunteer",

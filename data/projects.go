@@ -9,6 +9,17 @@ type Project struct {
 
 var ProjectData = []Project{
 	{
+		Title:	"Peer to Peer Secure Distributed Messenger",
+		Role:	"Full-Stack Software Engineer",
+		URL:	"https://github.com/jnDarby/CSCI-251-Group-Project"
+		KeyPointList: []string{
+			"Designed and implemented a multithreaded P2P communication system allowing concurrent messaging between multiple clients",
+			"Handled synchronization and concurrency to ensure thread-safe data transmission and prevent race conditions",
+			"Utilized TCP/IP sockets and custom protocols for reliable message delivery",
+			"Collaborated in a 4-person team using Git for version control and integration",
+		}
+	}
+	{
 		Title:	"U-Fund Project",
 		Role:	"Full-Stack Software Engineer",
 		URL:	"https://github.com/RIT-SWEN-261-05/team-project-team-1a",
